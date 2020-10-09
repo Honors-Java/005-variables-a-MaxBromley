@@ -1,3 +1,22 @@
+int xPostion = 75;
+int yPostion = 75;
+int diameter = 50;
+
+int xPostion2 = 350;
+int yPostion2 = 75;
+int diameter2 = 50;
+
+int xPostion3 = 75;
+int yPostion3 = 250;
+int diameter3 = 50;
+
+int xPostion4 = 350;
+int yPostion4 = 250;
+int diameter4 = 50;
+
+
+
+
 void setup() {
 	size(500, 500);
 }
@@ -19,7 +38,14 @@ void draw() {
   stroke(0);
   fill(175);
 
-
+ellipse(xPostion,yPostion,diameter,diameter);
   
+ellipse(xPostion2,yPostion2,diameter2,diameter2);
  
+ellipse(xPostion3,yPostion3,diameter3,diameter3);
+
+ellipse(xPostion4,yPostion4,diameter4,diameter4);
+
 }
+
+
